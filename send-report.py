@@ -1,14 +1,10 @@
 #!/usr/bin/env python
 
 import sendgrid
-import os
 from sendgrid.helpers.mail import *
 import argparse
 import psycopg2
 import traceback
-import sys
-import json
-import os
 from sendgrid.helpers.mail import *
 from sendgrid import *
 import base64
